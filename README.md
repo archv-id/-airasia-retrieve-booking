@@ -6,7 +6,7 @@
 
 ##### How to run?
 ```
-git clone https://github.com/archv-id/-airasia-retrieve-booking.git
+git clone https://github.com/archv-id/airasia-retrieve-booking.git
 cd airasia-retrieve-booking
 npm install 
 npm run dev
