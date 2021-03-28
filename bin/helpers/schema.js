@@ -19,7 +19,13 @@ const retrieveBooking = Joi.object().keys({
     lastName: Joi.string().required()
 });
 
+const cekNorek = Joi.object().keys({
+    kodeBank: Joi.string().required(),
+    nomorRekening: Joi.string().required()
+});
+
 module.exports = {
     validate,
-    retrieveBooking
+    retrieveBooking,
+    cekNorek
 }
